@@ -16,9 +16,7 @@ export default function Myexperience() {
           My <span className="text-[#e4ae08]">Experiences</span>
         </h1>
         <p className="text-gray-400 font-mono text-sm sm:text-base leading-relaxed">
-          We offer a range of services including modern web development,
-          result-driven digital marketing, and impactful outdoor advertising —
-          all designed to help brands grow online and offline.
+         I began at OOU, creating outdoor ad campaigns that boosted local brand visibility. At Mysogi Ads, I honed SEO, social media, and content marketing to drive engagement. recently, At Nupat Technologies, I collaborated with teams and clients to build responsive web applications delivering smooth digital experiences..
         </p>
       </div>
 
@@ -29,16 +27,22 @@ export default function Myexperience() {
             date: "Jan 2017 - July 2021",
             title: "Outdoor Advertising",
             place: "Olabisi Onabanjo University",
+            description:
+              "At Olabisi Onabanjo University, I teamed up with students to design and roll out outdoor ad campaigns across campus, boosting local brand visibility and fostering stronger community engagement.",
           },
           {
             date: "Jan 2025 - Dec 2025",
             title: "Web Development",
             place: "Nupat Technologies",
+            description:
+              "Worked as a frontend developer building scalable web apps using React, Tailwind CSS, and Node.js. Contributed to UI/UX improvements and collaborated on team-based agile projects.",
           },
           {
             date: "Jan 2023 - June 2024",
             title: "Digital Marketing",
             place: "Mysogi Ads",
+            description:
+              "Developed and executed digital marketing strategies across social media and Google Ads, improving client engagement rates and increasing conversion by 25%.",
           },
         ].map((exp, index) => (
           <motion.div
@@ -48,12 +52,15 @@ export default function Myexperience() {
             whileTap={{ scale: 1 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <h1 className="font-bold text-white text-sm sm:text-base mb-2">{exp.date}</h1>
-            <h3 className="text-[#e4ae08] font-mono text-base sm:text-lg">{exp.title}</h3>
+            <h1 className="font-bold text-white text-sm sm:text-base mb-2">
+              {exp.date}
+            </h1>
+            <h3 className="text-[#e4ae08] font-mono text-base sm:text-lg">
+              {exp.title}
+            </h3>
             <h4 className="text-white mb-3 text-sm">{exp.place}</h4>
             <p className="text-gray-400 font-mono text-xs sm:text-sm leading-relaxed">
-              I help brands grow online through SEO, social media strategy, and
-              content-driven campaigns.
+              {exp.description}
             </p>
           </motion.div>
         ))}

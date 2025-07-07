@@ -45,9 +45,12 @@ export default function Contactme() {
               rows={5}
               className="bg-[#1f2937] w-full p-3 text-white rounded"
             />
-            <button className="bg-[#e4ae08] text-black font-semibold px-4 py-2 rounded hover:bg-blue-500 transition-colors duration-500">
-              Contact Us
-            </button>
+            <button
+  className="bg-[#e4ae08] text-black font-semibold px-4 py-2 rounded hover:bg-blue-500 transition-colors duration-500"
+  onClick={() => window.location.href = "mailto:toheebadekunle22@gmail.com.com?subject=Inquiry&body=Hello,"}
+>
+  Contact Us
+</button>
           </div>
         </div>
       </div>

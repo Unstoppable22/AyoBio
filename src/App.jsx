@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./pages/About";
 import MyService from "./pages/MyService";
-import MyPortfolio from "./pages/MyPortfolio";
+import MyPortfolio from "./pages/Myportfolio";
 import MyExperience from "./components/Myexperience";
 import ContactMe from "./pages/Contactme";
 import Loader from "./components/UI/loader";

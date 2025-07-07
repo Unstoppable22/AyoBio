@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import About from "./pages/About";
 import MyService from "./pages/MyService";
 import MyPortfolio from "./pages/MyPortfolio";

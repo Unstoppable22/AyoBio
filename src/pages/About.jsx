@@ -32,9 +32,11 @@ export default function About() {
           HTML, CSS, JavaScript, React, and Tailwind CSS. I collaborate with
           backend teams to turn ideas into fast, functional applications.
         </p>
+
+        <a href="#contact">
         <button className="bg-[#e4ae08] px-4 py-2 rounded-sm hover:bg-blue-500 text-sm">
           Contact Us
-        </button>
+        </button></a>
       </div>
     </motion.div>
   );

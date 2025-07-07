@@ -26,7 +26,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-[#020617]">
+    <div className="bg-[#020617] overflow-x-hidden max-w-full">
       <Navbar />
 
       <section id="home">

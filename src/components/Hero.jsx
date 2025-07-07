@@ -22,10 +22,13 @@ export default function HeroSection() {
           <h3 className="text-gray-400 font-mono text-sm sm:text-base md:text-lg mb-5 leading-relaxed">
             a passionate Full Stack Developer, code crafter, and problem solver.
           </h3>
-          <button className="bg-[#e4ae08] px-4 py-2 rounded-sm hover:bg-blue-500 text-sm">
-            Contact Us
-          </button>
-        </div>
+          
+         <a href="#contact">
+  <button className="bg-[#e4ae08] px-4 py-2 rounded-sm hover:bg-blue-500 text-sm">
+    Contact Us
+  </button>
+</a>
+</div>
 
         {/* Right Image */}
         <div className="bg-gray-300 p-4 rounded-xl w-full max-w-[100%] sm:max-w-[350px] mx-auto">

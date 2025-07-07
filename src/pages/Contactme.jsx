@@ -4,7 +4,7 @@ import { FaTwitter, FaTiktok, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Contactme() {
   return (
-    <div className="bg-[#020617] px-6 py-10">
+    <div className="bg-[#020617] px-6 py-10 min-h-screen overflow-x-hidden">
       {/* Contact Header */}
       <div className="max-w-screen-lg mx-auto">
         <h1 className="text-white font-mono text-3xl md:text-4xl font-bold mb-5">

@@ -6,7 +6,7 @@ const [showLogo,setShowLogo]= useState(true);
 useEffect(() => {
   const timer =setTimeout(() => {
    setShowLogo(false);
-  },5000);
+  },1000);
 
 return () => clearTimeout (timer);
 }, []);

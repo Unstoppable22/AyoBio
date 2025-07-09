@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[#111827] overflow-x-hidden">
+    <section className="bg-[#111827] ">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}

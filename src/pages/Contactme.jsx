@@ -60,9 +60,11 @@ export default function Contactme() {
 
       {/* About Me & Socials */}
       <div className="text-center px-4">
-        <h1 className="text-white font-mono text-3xl md:text-4xl font-bold">AboutMe.</h1>
+        <h1 className="text-white text-[30px] md:text-[45px] font-mono">
+          Ayo<span className="text-[#e4ae08]">Forge</span>.
+        </h1>
         <h2 className="text-gray-400 font-mono text-sm md:text-base pt-2 mb-8">
-          We offer a range of services including modern web development.
+          © Adekunle Toheeb Ayomide. All rights reserved
         </h2>
 
         {/* Social Media Icons */}
